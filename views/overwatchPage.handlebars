@@ -1,0 +1,37 @@
+<nav class="navbar">
+<ul class = "navlist">
+      <li class = "navitem"><a href="../../"> Home </a></li>
+      <li class = "navitem"><a href="../../about.html">About</a></li>
+      <li class = "navitem  active"><a href="../../Overwatch">Overwatch</a></li>
+      <li class = "navitem "><a href="../../callofduty/index.html">COD</a></li>
+</ul>
+</nav>
+
+<div class= "infoContainer">
+       <div class= "profileContainer">
+         {{> overwatchPlayerBox}}
+      </div>
+
+      {{> overwatchStatBox}}
+
+      <div class= "suggestedPlayers">
+        <p class= "sectionTitle"> Suggested Players </p>
+        <div class= "playerContainer">
+          {{#each suggested}}
+            {{> overwatchSuggested}}
+          {{/each}}
+        </div>
+      </div>
+
+      <div class="mostPlayedBox">
+          <p class="sectionTitle"> Most Played </p>
+          <div class="bars">
+            {{#each heroes}}
+              {{> overwatchHeroBar}}
+            {{/each}}
+          </div>
+      </div>
+
+
+</div>
+<link rel="stylesheet" href="../../../style.css" media="screen">

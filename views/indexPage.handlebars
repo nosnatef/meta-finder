@@ -1,0 +1,19 @@
+<nav class="navbar">
+<ul class = "navlist">
+      <li class = "navitem"><a href="#"> Home </a></li>
+      <li class = "navitem"><a href="/about.html">About</a></li>
+      <li class = "navitem  active"><a href="/Overwatch">Overwatch</a></li>
+      <li class = "navitem "><a href="../callofduty/index.html">COD</a></li>
+</ul>
+</nav>
+<div class="container">
+  <div class="row">
+    {{#each cards}}
+    {{#ifThird @index}}
+  </div>
+  <div class="row">
+    {{/ifThird}}
+      {{> cardTemplate}}
+    {{/each}}
+  </div>
+</div>
