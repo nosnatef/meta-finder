@@ -1,0 +1,398 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+a {
+     text-decoration: none;
+     color: white;
+}
+
+a:hover {
+     color:black;
+}
+
+a:first-child{
+  text-decoration: none;
+  color:black;
+}
+
+body {
+     background-color: rgba(230, 230, 230, 1);
+     margin:0;
+}
+
+.title{
+     text-align: center;
+     font-size: 40px;
+     font-family: 'Lucida Console','Russo One', sans-serif;
+     margin: 0;
+     padding: 5px;
+     background-color: #4285F4;
+     color: rgba(277,250, 32, 1);
+}
+
+.titlePic {
+     justify-content: center;
+     margin: 0px;
+     padding: 0px;
+     background-color: #4285F4;
+}
+
+.navitem {
+     display: inline;
+     padding-left: 40px;
+     padding-right: 40px;
+     color: white;
+     font-family: 'Russo One', sans-serif;
+     font-size:30px;
+     margin:0px;
+     margin-left: 5px;
+}
+
+.navitem:hover{
+  background-color: lightgrey;
+}
+
+.navlist {
+     padding: 0px;
+     margin: 0px;
+}
+
+.navbar {
+     background-color: #E9ECEF;
+     margin: 0px;
+     padding:0px;
+}
+
+.active {
+     border-bottom: 3px solid #4285F4;
+}
+
+.card {
+       width: 20rem;
+       height: 20rem;
+}
+
+.container{
+       padding: 20px;
+       margin: auto;
+       position: relative;
+}
+
+.center {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.row{
+  margin-bottom:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-md-4{
+  flex: 0 1 28%;
+  max-width: 28%;
+  margin:20px;
+}
+
+.open > .dropdown-menu {
+  display: block;
+}
+
+.dropdown{
+  display: inline-block;
+  margin-top:30px;
+  margin-left:60px;
+  margin-right:8px;
+}
+
+.dropdown-menu{
+  padding-left: 10px;
+}
+
+#dropdownMenu1{
+  background-image:linear-gradient(to right,#A8E6F6,#9FE3F5);
+}
+
+#dropdownMenu2{
+  background-color:#5BE8A7;
+}
+
+.select-title{
+  margin:60px;
+  margin-left:30%;
+  font-size:30px;
+  font-weight:bold;
+  font-family: 'Russo One', sans-serif;
+}
+
+.content-container{
+  height:100%;
+  min-width: 80%;
+}
+
+.data-table{
+  background-color: white;
+}
+
+
+.infoContainer {
+       display: flex;
+       flex-wrap: wrap;
+       margin: 10px;
+       margin-left: 20%;
+       margin-right: 20%;
+       justify-content: center;
+       min-width: 620px;
+       max-width: 1000px;
+
+}
+
+.profileContainer {
+
+       display: flex;
+       margin: 20px 10%;
+       flex:100%;
+       min-width: 620px;
+       max-width: 800px;
+       //align-items: center;
+      // justify-content: center;
+
+
+}
+
+.playerBox {
+       flex: 30%;
+       display: flex;
+       flex-wrap: nowrap;
+       min-width: 620px;
+       max-width: 800px;
+       border: 2px solid rgb(0,0,0);
+       border-radius: 10px;
+       background-color: rgb(255,255,255);
+       padding: 10px;
+       align-items: center;
+
+}
+
+.playerPicBox {
+       //float: left;
+       display: inline-flex;
+       border: 2px solid rgb(0,0,0);
+       border-radius: 10px;
+       //padding: 25px;
+}
+.profileUser {
+
+       display: inline-block;
+
+}
+
+
+.rankBox {
+       float: left;
+       border-left: 2px solid lightgrey;
+       margin-left: 20px;
+       align-items: center;
+     //  position: relative;
+
+}
+
+.username {
+       font-size: 40px;
+       margin: 20px;
+       margin-right: 5px;
+       padding-top: 10px;
+       display: inline;
+}
+.blizID {
+       display: inline;
+       font-size: 15px;
+}
+
+.skillRating {
+       display: inline;
+       font-size: 35px;
+       margin: 20px;
+       margin-right: 5px;
+
+
+}
+
+.sr {
+       display: inline;
+       font-size: 20px;
+}
+
+.statBox {
+
+       margin-left: 20px;
+      // float:left;
+       flex: 28%;
+       //display: inline;
+       flex-wrap: wrap;
+       border: 2px solid rgb(0,0,0);
+       border-radius: 10px;
+       background-color: rgb(255,255,255);
+       padding: 10px;
+       align-items: center;
+
+
+
+}
+
+.sectionTitle {
+       font-size: 40px;
+       font-weight: bold;
+       justify-content: center;
+       margin: 0px;
+}
+
+.stats {
+       display: block;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       padding-left: 20px;
+}
+
+.category {
+       display: inline;
+}
+
+.data {
+       display: inline;
+       font-weight: bold;
+
+}
+.statContainer {
+     display: flex;
+     margin-bottom: 20px;
+     //float: left;
+//     flex: 25%;
+//       margin-left: 20%;
+//       margin-right: 20%;
+}
+
+.suggestedPlayers {
+
+
+     margin-left: 20px;
+     flex: 46%;
+     flex-wrap: nowrap;
+     border: 2px solid rgb(0,0,0);
+     border-radius: 10px;
+     background-color: rgb(255,255,255);
+     padding: 10px;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px
+
+}
+
+.miniPlayer {
+     flex: 100%;
+     display: flex;
+     flex-wrap: nowrap;
+     margin: 10px;
+     margin-left: 10%;
+     margin-right: 10%;
+     border: 2px solid rgb(0,0,0);
+     border-radius: 10px;
+     background-color: rgb(255,255,255);
+     padding: 10px;
+     align-items: center;
+}
+
+.miniProfileUser {
+          align-items: center;
+
+}
+
+.miniRankBox {
+       float: left;
+       border-left: 2px solid lightgrey;
+       margin-left: 10px;
+       align-items: center;
+       display: inline;
+       flex-wrap: nowrap;
+      align-items: center;
+     //  position: relative;
+
+}
+
+
+
+.miniUsername {
+       font-size: 20px;
+       margin: 20px;
+       margin-right: 5px;
+       padding-top: 10px;
+       display: inline;
+}
+.miniBlizID {
+       display: inline;
+       font-size: 15px;
+       align-items: center;
+       flex-wrap: nowrap;
+}
+
+.miniSkillRating {
+       display: inline;
+       font-size: 15px;
+       margin: 20px;
+       margin-right: 5px;
+      align-items: center;
+      flex-wrap: nowrap;
+
+}
+
+.miniSr {
+       display: inline;
+       font-size: 10px;
+       align-items: center;
+       flex-wrap: nowrap;
+}
+.playerContainer {
+     display: flex;
+     flex-wrap: wrap;
+     //flex: 100%;
+}
+
+.result-pic{
+  height:25px;
+  width:25px;
+  display: inline;
+}
+
+.mostPlayedBox {
+     flex: 100%;
+     display: wrap;
+     //flex-wrap: nowrap;
+     margin: 10px;
+     margin-left: 10%;
+     margin-right: 10%;
+     border: 2px solid rgb(0,0,0);
+     border-radius: 10px;
+     background-color: rgb(255,255,255);
+     padding: 10px;
+     //align-items: center;
+}
+
+/* Container for skill bars */
+.barContainer {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.hero {
+    background-color: #4285F4;
+}

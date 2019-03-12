@@ -1,0 +1,34 @@
+[
+  {
+    "imgURL":"https://cdna.artstation.com/p/assets/images/images/005/296/592/large/nokado-katoji-overwatch-logo-blank.jpg?1490020924",
+    "cardTitle":"Overwatch",
+    "destURL" : "/Overwatch"
+
+  },
+  {
+    "imgURL":"https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/Stronghold_Metadata_Image.jpg",
+    "cardTitle":"Call of Duty",
+    "destURL":"/Callofduty"
+  },
+  {
+    "imgURL":"https://cdn.images.express.co.uk/img/dynamic/143/590x/PUBG-886916.jpg",
+    "cardTitle":"PUBG",
+    "destURL":"/PUBG"
+  },
+  {
+    "imgURL":"https://www.dvsgaming.org/wp-content/uploads/2017/07/Counter-Strike-Global-Offensive-HD-Wallpaper.jpg",
+    "cardTitle":"CSGO",
+    "destURL":"/CSGO"
+  },
+  {
+    "imgURL":"https://www.dvsgaming.org/wp-content/uploads/2017/04/DOTA-2.jpg",
+    "cardTitle":"DOTA2",
+    "destURL":"/DOTA2"
+  },
+  {
+    "imgURL":"http://i0.kym-cdn.com/entries/icons/original/000/024/820/maxresdefault.jpg",
+    "cardTitle":"Fortnite",
+    "destURL":"/Fortnite"
+
+  }
+]
