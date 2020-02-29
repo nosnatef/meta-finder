@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "cod-api": "^1.0.0",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
