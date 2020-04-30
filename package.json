@@ -9,7 +9,7 @@
     "cod-api": "^1.0.0",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "mongodb": "^3.0.10",
     "overwatch-api": "^0.4.0",
     "overwatch-js": "^1.7.0",
