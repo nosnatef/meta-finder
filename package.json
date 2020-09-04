@@ -10,7 +10,7 @@
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "jquery": "^3.3.1",
-    "mongodb": "^3.0.10",
+    "mongodb": "^3.1.13",
     "overwatch-api": "^0.4.0",
     "overwatch-js": "^1.7.0",
     "popper.js": "^1.14.3",
